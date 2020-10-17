@@ -6,9 +6,6 @@ package com.parkingproject;
  * has to be used to output, it can be changed here easily.
  */
 public class OutputPrinter {
-  public void end() {
-    printWithNewLine("Thanks for using Parking lot service.");
-  }
 
   public void notFound() {
     printWithNewLine("null");
