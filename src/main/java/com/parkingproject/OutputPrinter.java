@@ -7,7 +7,7 @@ package com.parkingproject;
  */
 public class OutputPrinter {
   public void end() {
-    printWithNewLine("Thanks for using Go-Jek Parking lot service.");
+    printWithNewLine("Thanks for using Parking lot service.");
   }
 
   public void notFound() {
