@@ -94,18 +94,7 @@ public class ParkingLotService {
     }
   }
 
-  /**
-   * Gets all the slots in which a car with given color is parked.
-   *
-   * @param color Color to be searched.
-   * @return All matching slots.
-   */
-  public List<Slot> getSlotsForColor(final String color) {
-    final List<Slot> occupiedSlots = getOccupiedSlots();
-    return occupiedSlots.stream()
-        .filter(slot -> slot.getParkedCar().getColor().equals(color))
-        .collect(Collectors.toList());
-  }
+
   public List<Slot> getSlotsForDriverAge(final int age) {
 	    final List<Slot> occupiedSlots = getOccupiedSlots();
 	    return occupiedSlots.stream()
