@@ -16,10 +16,6 @@ We interact with the system via a file-based input system, i.e. it should accept
 
 * JDK 1.8
 * Maven
-* For Unit Tests:  
-  * Junit 4
-  * Mockito
-
 
 ### Runing the project
 
