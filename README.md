@@ -27,6 +27,8 @@ git clone "https://github.com/bhargavsaidadi/parking-lot.git"
 
 to run the project on terminal: java -jar <parkinglot.jar file path> <input.txt file path>
 
+you can find the parkinlot.jar in the out\artifacts\parking_lot_jar\parkinglot.jar <-------------*** copy the full path and  do same for the file_input.txt
+
 eg: C:\activity\latest\squadstackassignment>java -jar C:\activity\latest\squadstackassignment\out\artifacts\parking_lot_jar\parkinglot.jar C:\activity\latest\squadstackassignment\file_input.txt
 
 
