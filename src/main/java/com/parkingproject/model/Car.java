@@ -22,7 +22,7 @@ public class Car {
 		return registrationNumber;
 	}
 
-	public String getColor() {
+	public String getDriver() {
 		return driver_name;
 	}
 
@@ -38,7 +38,7 @@ public class Car {
 
 	@Override
 	public String toString() {
-		return "Car [registrationNumber=" + registrationNumber + ", color=" + driver_name + ", age=" + age + "]";
+		return "Car [registrationNumber=" + registrationNumber + ", driver=" + driver_name + ", age=" + age + "]";
 	}
 	
 }
