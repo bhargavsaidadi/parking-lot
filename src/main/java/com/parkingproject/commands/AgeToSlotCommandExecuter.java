@@ -8,6 +8,10 @@ import com.parkingproject.model.Command;
 import com.parkingproject.model.Slot;
 import com.parkingproject.service.ParkingLotService;
 
+/**
+ * Executor to handle command of fetch slot number of a car with a given age.
+ */
+
 public class AgeToSlotCommandExecuter extends CommandExecutor {
 
 	public static String COMMAND_NAME = "Slot_numbers_for_driver_of_age";
