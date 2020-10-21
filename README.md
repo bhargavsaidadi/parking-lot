@@ -65,7 +65,6 @@ eg: C:\activity\latest\squadstackassignment>java -jar C:\activity\latest\squadst
 
 
 
-
 ### Further Enhancements:
 
 We can add the different modes according to our requirement so with the commands and services
