@@ -94,6 +94,9 @@ public class ParkingLotService {
     }
   }
 
+/**
+ * retrieves the slots with driver's age
+ */	
 
   public List<Slot> getSlotsForDriverAge(final int age) {
 	    final List<Slot> occupiedSlots = getOccupiedSlots();
